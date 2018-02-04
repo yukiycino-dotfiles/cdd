@@ -6,28 +6,20 @@ cdd is a zsh command to move the directory that supports Tmux, Screen and multi 
 
 ### Using zgen
 
-Include the load command in your .zshrc
-
 ```
-zgen load yuki-ycino/cdd
-zgen save
+zgen load yukiycino-dotfiles/cdd
 ```
 
 ### Using zplug
 
-Load cdd as a plugin in your .zshrc
-
 ```
-zplug "yuki-ycino/cdd"
+zplug "yukiycino-dotfiles/cdd"
 ```
 
 ### Using Antigen
 
-Bundle cdd in your .zshrc
-
 ```
-antigen bundle yuki-ycino/cdd
-antigen apply
+antigen bundle yukiycino-dotfiles/cdd
 ```
 
 ## Settings
@@ -53,7 +45,7 @@ $ cdd<Tab>
 2.2                        ==>  ~/Downloads/
 3.1   7.1  1.3  3.3        ==>  ~/dotfiles
 3.4                        ==>  ~/backup
-last  3.2                  ==>  ~/repos/github.com/yuki-ycino/cdd
+last  3.2                  ==>  ~/repos/github.com/hogehoge/fugafuga
 [cdd command]
 add      ==>  add the directory to ~/.cdd
 delete   ==>  delete the directory from ~/.cdd
